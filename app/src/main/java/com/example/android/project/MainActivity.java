@@ -25,4 +25,8 @@ public class MainActivity extends AppCompatActivity {
         x++;
         T1.setText(x + "");
     }
+    public void dec(View v){
+        x--;
+        T1.setText(x + "");
+    }
 }
